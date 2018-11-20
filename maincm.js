@@ -6,7 +6,7 @@
 
 
 
-// creare randomizzaione con fuction per generare 16 n casuali da 1 a 100
+// creare array e  fuction per generare 16 n casuali da 1 a 100 vietati
 
 var numeriVietati = [];
 
@@ -19,6 +19,8 @@ function numbRandom(max, min) {
 }
 console.log(numeriVietati);
 
+
+// Ora creiamo il prompt dove l'utente inserirà i numeri da confrontare con quelli vietati
 
 
 for (var i = 0; i < 16; i++) {
@@ -37,6 +39,6 @@ var numeroScelto = parseInt(prompt("inserire un numero da 1 a 100"));
 
 nUtente.push(numeroScelto);
 
-for (var i = 0; i < arrayUtente.length; i++) {
-    arrayUtente[i];
+for (var i = 0; i < nUtente.length; i++) {
+    nUtente[i];
 }
