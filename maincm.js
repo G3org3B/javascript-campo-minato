@@ -5,7 +5,10 @@
 // Al termine della partita il software deve comunicare il punteggio, cioè il numero di volte che l’utente ha inserito un numero consentito.
 
 
-var numeri = [];
+
+// creare randomizzaione con fuction per generare 16 n casuali da 1 a 100
+
+var numeriVietati = [];
 
 function numbRandom(max, min) {
 
@@ -14,12 +17,26 @@ function numbRandom(max, min) {
   return numeroR;
 
 }
-console.log(numeri);
+console.log(numeriVietati);
+
+
 
 for (var i = 0; i < 16; i++) {
 
-  var numerouser = numbRandom(1,100);
-  numeri.push(numerouser);
-  console.log(numerouser);
-  console.log(numeri);
+  var numeroVietato = numbRandom(1,100);
+  numeri.push(numeroVietato);
+  console.log(numeroVietato);
+  console.log(numeriVietati);
+}
+
+
+
+var nUtente = [];
+
+var numeroScelto = parseInt(prompt("inserire un numero da 1 a 100"));
+
+nUtente.push(numeroScelto);
+
+for (var i = 0; i < arrayUtente.length; i++) {
+    arrayUtente[i];
 }
