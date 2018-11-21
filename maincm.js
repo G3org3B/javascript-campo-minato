@@ -42,3 +42,24 @@ nUtente.push(numeroScelto);
 for (var i = 0; i < nUtente.length; i++) {
     nUtente[i];
 }
+
+
+// Confronto numeri utente con quelli vietetati e eventuale evento in base al risultato
+
+var numero_trovato = false;
+
+var i = 0 ;
+
+while (!numero_trovato && i < 84) {
+
+  if (numeroR == numeroScelto) {
+
+    numeroTrovato = true;
+
+    alert("Hai perso il tuo punteggio è Punteggio :" + arrayUtente.length);
+  }
+  else {
+    prompt("Continuare");
+  }
+  i++;
+}
