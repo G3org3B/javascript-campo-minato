@@ -20,13 +20,14 @@ function numbRandom(max, min) {
 console.log(numeriVietati);
 
 
-// Ora creiamo il prompt dove l'utente inserirà i numeri da confrontare con quelli vietati
+// Creiamo il prompt dove l'utente inserirà i numeri da confrontare con quelli vietati
 
 
 for (var i = 0; i < 16; i++) {
 
-  var numeroVietato = numbRandom(1,100);
-  numeri.push(numeroVietato);
+  var numeroVietato = numbRandom(1, 100);
+
+  numeriVietati.push(numeroVietato);
   console.log(numeroVietato);
   console.log(numeriVietati);
 }
@@ -52,9 +53,9 @@ var i = 0 ;
 
 while (!numero_trovato && i < 84) {
 
-  if (numeroR == numeroScelto) {
+  if (numeroVietato == numeroScelto) {
 
-    numeroTrovato = true;
+    numer_trovato = true;
 
     alert("Hai perso il tuo punteggio è Punteggio :" + arrayUtente.length);
   }
